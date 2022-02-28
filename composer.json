@@ -1,0 +1,25 @@
+{
+    "name": "navitas/blackhole",
+    "description": "Blackhole mail driver for laravel 8, send emails to nowhere.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Storer",
+            "email": "luke.storer@navitassafety.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Navitas\\Blackhole\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Navitas\\Blackhole\\BlackholeMailServiceProvider"
+            ]
+        }
+    }
+}
